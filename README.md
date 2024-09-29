@@ -3,6 +3,8 @@ Satisfactory Dedicated Server HTTPS API Client
 
 A low-level, zero dependency Node.js client library for the HTTPS API of the [Satisfactory Dedicated Server](https://satisfactory.fandom.com/wiki/Dedicated_servers).
 
+![main workflow](https://github.com/DJWoodZ/satisfactory-dedicated-server-https-api-client/actions/workflows/main.yml/badge.svg?branch=main)
+
 Installation
 ------------
 
