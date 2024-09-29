@@ -1,7 +1,7 @@
 const utils = {
   /**
    * Deep merge multiple objects into one.
-   * @param {...any} objects  The objects to merge.
+   * @param {...any} objects The objects to merge.
    * @returns {Object} The merged object.
    */
   deepMerge: (...objects) => {

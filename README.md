@@ -54,7 +54,7 @@ Name | Type | Default | Description
 ----|------|---------|-------------
 address | string | '127.0.0.1' | The address of the Dedicated Server
 port | number | 7777 | The port number of the Dedicated Server
-https | object | { request: { timeout:30000 } } | Options for HTTPS functions
+https | object | { request: { timeout:30000 } } | Options for [HTTPS](https://nodejs.org/api/https.html) functions
 authenticationToken | string | | The authentication token to be set for requests
 
 APIClient Functions
@@ -1003,7 +1003,7 @@ const main = async () => {
       }
     }
 
-    // Generate API token
+    // generate API token
     {
       const {
         status,
