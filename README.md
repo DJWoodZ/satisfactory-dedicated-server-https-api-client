@@ -62,7 +62,7 @@ APIClient Functions
 
 ### API Functions <a id="APIFunctions"></a>
 
-These map to the 'API Functions' in the DedicatedServerAPIDocs.md file (available under the 'CommunityResources' directory of the installed Satisfactory game):
+These map to the 'API Functions' in the `DedicatedServerAPIDocs.md` file (available under the 'CommunityResources' directory of the installed Satisfactory game):
 
 | Method Signature | Description |
 | --- | --- |
