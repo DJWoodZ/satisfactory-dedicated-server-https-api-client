@@ -1,0 +1,37 @@
+{
+  "name": "@djwoodz/satisfactory-dedicated-server-https-api-client",
+  "version": "0.1.0",
+  "description": "A zero dependency Node.js client library for the HTTPS API of the Satisfactory Dedicated Server.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint \"**/*.js\"",
+    "test": "npx jest --coverage",
+    "doc": "npx jsdoc -c .jsdoc.conf.json ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJWoodZ/satisfactory-dedicated-server-https-api-client.git"
+  },
+  "keywords": [
+    "Satisfactory",
+    "Dedicated Server",
+    "HTTPS API",
+    "Client"
+  ],
+  "author": "DJ WoodZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DJWoodZ/satisfactory-dedicated-server-https-api-client/issues"
+  },
+  "homepage": "https://github.com/DJWoodZ/satisfactory-dedicated-server-https-api-client#readme",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.30.0",
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.3"
+  }
+}

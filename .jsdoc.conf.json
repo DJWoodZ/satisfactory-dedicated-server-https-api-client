@@ -1,0 +1,17 @@
+{
+  "plugins": [],
+  "tutorials": "docs/tutorials",
+  "source": {
+    "includePattern": ".*\\.js$",
+    "excludePattern": "(node_modules|test)"
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true
+  },
+  "template": {
+    "name": "default",
+    "theme": "lodash",
+    "assetsDir": "docs/templates/assets"
+  }
+}
